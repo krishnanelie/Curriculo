@@ -1,0 +1,55 @@
+body {
+    font-family: 'Mada', sans-serif;
+}
+
+.coluna {
+    height: 100%;
+    width: 100%;
+}
+
+.coluna:nth-child(2) {
+    border-left: solid 2px #555555;  
+}
+
+.foto {
+    float: right;
+    height: 80px;
+    width: 80px;
+    border: solid 0px #555555;
+    border-radius: 60px; 
+    margin-inline-start: 20px;
+   	margin-bottom: 10px;
+}
+
+
+}
+IMG.displayed {
+    display: block;
+    margin-left: 50%;
+    margin-right: 50% }
+body {
+    background-color: #555555;
+    background: white 
+    }
+
+.container {
+    /*height: 842px;
+    width: 595px;*/
+    border: dashed 1px #cccccc;
+    background-color: #ffffff;
+    padding: 50px;
+    
+}
+P { 
+    text-align: center
+ }
+
+H2 { 
+    text-align: center 
+}
+
+H3 { 
+    text-align: center 
+}
+
+
