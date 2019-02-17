@@ -1,12 +1,11 @@
-body {
-    font-family: 'Mada', sans-serif;
-}
-
 .coluna {
     height: 90%;
     width: 100%;
 }
 
+.minha-foto{
+    text-align: center
+}
 .coluna:nth-child(2) {
     border-left: solid 2px #555555;  
 }
@@ -21,9 +20,7 @@ body {
    	margin-bottom: 10px;
 }
 
-
-}
-IMG.displayed {
+img.displayed {
     display: block;
     margin-left: 50%;
     margin-right: 50% }
@@ -40,16 +37,16 @@ body {
     padding: 50px;
     
 }
-P { 
+
+.contato > p,
+.habilidades > p  {
+    text-align: left;
+}
+
+body {
+    font-family: 'Mada', sans-serif;
+}
+
+p { 
     text-align: center
- }
-
-H2 { 
-    text-align: center 
 }
-
-H3 { 
-    text-align: center 
-}
-
-
