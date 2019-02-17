@@ -1,13 +1,32 @@
 .coluna {
-    height: 90%;
     width: 100%;
 }
 
-.minha-foto{
-    text-align: center
-}
 .coluna:nth-child(2) {
-    border-left: solid 2px #555555;  
+    border-left: solid 2px #555555;
+}
+
+.primeira-linha {
+    border-bottom: solid 2px #555555;
+    margin-bottom: 30px;
+}
+
+.minha-foto {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.meu-nome {
+    text-align: left;
+    font-size: 100px;
+    padding-top: 50px;
+}
+
+.atualizado{
+    text-align: right;
+}
+.curriculum{
+    text-align: left;
 }
 
 .foto {
@@ -15,19 +34,16 @@
     height: 80px;
     width: 80px;
     border: solid 0px #555555;
-    border-radius: 60px; 
+    border-radius: 60px;
     margin-inline-start: 20px;
    	margin-bottom: 10px;
 }
 
-img.displayed {
+.displayed {
     display: block;
     margin-left: 50%;
-    margin-right: 50% }
-body {
-    background-color: #555555;
-    background: white 
-    }
+    margin-right: 50%;
+}
 
 .container {
     /*height: 842px;
@@ -35,18 +51,23 @@ body {
     border: dashed 1px #cccccc;
     background-color: #ffffff;
     padding: 50px;
-    
 }
 
 .contato > p,
-.habilidades > p  {
+.habilidades > p {
     text-align: left;
 }
 
 body {
     font-family: 'Mada', sans-serif;
+    background-color: #555555;
+    background: white;
 }
 
-p { 
-    text-align: center
+p {
+    text-align: center;
+}
+
+h3:not(:first-child) {
+    margin-top: 40px;
 }
