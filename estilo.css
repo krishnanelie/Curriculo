@@ -54,7 +54,8 @@
 }
 
 .contato > p,
-.habilidades > p {
+.habilidades > p,
+.idiomas > p {
     text-align: left;
 }
 
@@ -70,4 +71,14 @@ p {
 
 h3:not(:first-child) {
     margin-top: 40px;
+}
+
+ul.none {
+	list-style-type: none;
+}
+
+.flag-icon{
+    filter: grayscale(100%);
+   
+
 }
